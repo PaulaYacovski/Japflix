@@ -1,0 +1,48 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+#detallePeliculas {
+    color: white; /* Cambiar el color del texto a blanco */
+  }
+  
+  #detallesAdicionales {
+    color: white; /* Cambiar el color del texto a blanco */
+  }
+  #detallesAdicionales {
+    transition: max-height 0.5s ease; /* Transición suave al abrir y cerrar */
+    overflow: hidden; 
+  }
+  
+  #btnMore {
+    border: 1px solid #fff; /* Borde similar a lo mostrado en la imagen */
+    padding: 5px 10px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+  }
+ 
